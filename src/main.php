@@ -1,11 +1,11 @@
 <?php
-//promemoria finire, inserire namespace, inserire ultime funzioni chiudere le graffe
 
 namespace: 
   
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerSpawnEvent;
 use pocketmine\event\player\PlayerQuitEvent;
+use pocketmine\event\player\PlayerJoinEvent;
 
 class TEST extends PluginBase{
 
@@ -14,3 +14,7 @@ $sender->SendMessage(TextFormat::GREEN "[+]") $this GetPlayer->GetName(). (TextF
 
 public function $event OnPlayerQuit(PlayerQuitEvent)
 $sender->SendMessage(TextFormat::RED "[-]") $this GetPlayer->GetName(). (TextFormat::RED. " ");
+
+public function $event OnPlayerJoin(PlayerJoinEvent)
+$this getConfig()->get("Message") §player->sendMessage(TextFormat::BLUE " ");
+}
