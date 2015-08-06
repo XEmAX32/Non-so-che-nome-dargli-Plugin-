@@ -1,6 +1,6 @@
 <?php
 
-namespace: JoinMessage;
+namespace GoodJoin;
   
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerSpawnEvent;
