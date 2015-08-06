@@ -14,3 +14,6 @@ $sender->SendMessage(TextFormat::GREEN "[+]") $this GetPlayer->GetName(). (TextF
 
 public function $event OnPlayerQuit(PlayerQuitEvent)
 $sender->SendMessage(TextFormat::RED "[-]") $this GetPlayer->GetName(). (TextFormat::RED. " ");
+
+public function $event OnPlayerJoin(PlayerJoinEvent) 
+
