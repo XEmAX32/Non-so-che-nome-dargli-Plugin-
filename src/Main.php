@@ -7,7 +7,7 @@ use pocketmine\event\player\PlayerSpawnEvent;
 use pocketmine\event\player\PlayerQuitEvent;
 use pocketmine\event\player\PlayerJoinEvent;
 
-class Main extends PluginBase{
+class JoinMessage extends PluginBase{
 
 public function OnPlayerSpawn(PlayerSpawnEvent $event){
   $players = $this->getServer()->getLevelByName("world")->getPlayers();
